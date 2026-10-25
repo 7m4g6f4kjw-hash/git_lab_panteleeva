@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello, Git!\n");
+    int a, b;
+
+    printf("Введите два целых числа: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Вы ввели числа %d и %d\n", a, b);
+
     return 0;
 }
