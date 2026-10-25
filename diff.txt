@@ -1,0 +1,30 @@
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..1da893b
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,6 @@
++*.o
++*.out
++*.exe
++.DS_Store
++build/
++program
+diff --git a/main.c b/main.c
+index 4ff6623..7382d50 100644
+--- a/main.c
++++ b/main.c
+@@ -1,6 +1,12 @@
+ #include <stdio.h>
+ 
+ int main(void) {
+-    printf("Hello, Git!\n");
++    int a, b;
++
++    printf("Введите два целых числа: ");
++    scanf("%d %d", &a, &b);
++
++    printf("Сумма = %d\n", a + b);
++
+     return 0;
+ }
