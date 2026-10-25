@@ -1,0 +1,5 @@
+4322bd1 Create laboratory repository
+e0059eb Add calculation of the sum
+8920204 Add rules for ignored files
+37686c0 Add input of two integers
+45b6211 Create simple C program
