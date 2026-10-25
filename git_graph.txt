@@ -1,0 +1,18 @@
+*   0437f43 (HEAD -> master) C35: merge master and test branches
+|\  
+| * 0b81c6f (test) C5: second change in test branch
+| * 4317224 C4: first change in test branch
+* | 298edb4 C3: change in master branch
+|/  
+* 740fafa C2: common branch point
+* b9684a0 C1: start branch structure
+*   13a121c Merge personal branch into master
+|\  
+| * 839bb8a (panteleeva_v) Change mathematical operation to subtraction
+| * eac7c6b Save repository history and diff
+| * e0059eb Add calculation of the sum
+| * 8920204 Add rules for ignored files
+| * 37686c0 Add input of two integers
+| * 45b6211 Create simple C program
+|/  
+* 4322bd1 Create laboratory repository
